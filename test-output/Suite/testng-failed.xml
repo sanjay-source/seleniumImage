@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.suiteListeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="URL" value="https://learn.letskodeit.com/p/practice"/>
+    <classes>
+      <class name="Selenium.msrctcTestCases">
+        <methods>
+          <include name="testCase11"/>
+        </methods>
+      </class> <!-- Selenium.msrctcTestCases -->
+      <class name="Selenium.letsKodItTestCases">
+        <methods>
+          <include name="testCase"/>
+          <include name="testCase10"/>
+          <include name="testCaseClose"/>
+        </methods>
+      </class> <!-- Selenium.letsKodItTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,5 @@
+02:22:22.232 [main] DEBUG Selenium.letsKodItTestCases - Data Loaded, operation successful
+02:22:22.235 [main] INFO  Selenium.letsKodItTestCases - Value matched! Test case passed
+02:22:22.485 [TestNG-method=testCase04-1] INFO  Selenium.letsKodItTestCases - Value matched! Test case passed
+02:22:27.389 [main] INFO  Selenium.letsKodItTestCases - Value matched! Test case passed
+02:22:28.653 [main] ERROR Selenium.letsKodItTestCases - Could not close the driver Object and session
